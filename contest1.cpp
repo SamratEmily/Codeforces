@@ -7,7 +7,7 @@ int main() {
     double x, y;
     cin >> x >> y;
 
-    double ans = (y* 100)/(100-x);
+    double ans = (x * y) / 100.0;  // Calculate percentage correctly
 
     printf("%.2lf\n", ans);
     return 0;
