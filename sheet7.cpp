@@ -1,11 +1,12 @@
-#include<bits/stdc++.h>
+#include<iostream>
 
 using namespace std;
 
+int cnt = 1;
 void fun(int n) {
     if(n == 0) return;
-    cout << n << ' ';
-    n--;
+    cout << "I love Recursion" << endl;
+    fun(n-1);
 }
 int main() {
     int t = 1;
@@ -15,7 +16,6 @@ int main() {
         cin >> n;
 
         fun(n);
-        cout << endl;
     }
 
     return 0;
